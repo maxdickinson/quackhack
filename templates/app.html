@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <header class = "mainHeader">
+    <link rel = "stylesheet" href = "/static/app.css">
+
+    <nav class = "navigation">
+      Twitch Groups
+    </nav>
+  </header>
+</head>
+<body class = "primaryContent">
+  <div class = "twitch-groups">
+
+  </div>
+  <div class = "login">
+    <img src="http://ttv-api.s3.amazonaws.com/assets/connect_dark.png" class="twitch-connect" href="#" />
+  </div>
+</body>
+
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script src="https://ttv-api.s3.amazonaws.com/twitch.min.js"></script>
+
+<script>
+  Twitch.init({clientId: 'YOUR_CLIENT_ID_HERE'}, function(error, status) {
+    // the sdk is now loaded
+  });
+</script>
+</html>

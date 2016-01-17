@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navigation {
+  display: inline-block;
+  height: 20%;
+  width: 100%;
+  bottom-border: 10px solid black;
+  background: rgb(96, 2, 129);
+  text-align: center;
+  font-size: 3em;
+  font-family: "Helvetica Nue", sans-serif;
+  color: white;
+
+}
+
+.login {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  width: 170px;
+  height: 32px;
+}
+
+.twitch-groups {
+  position: fixed;
+  display: inline-block;
+  top: -35%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: 2px dotted purple;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+body {
+  
+}
+
+
